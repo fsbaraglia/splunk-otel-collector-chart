@@ -1,0 +1,26 @@
+apiVersion: v1
+entries:
+  splunk-otel-collector:
+  - apiVersion: v2
+    appVersion: 0.54.2-snmp
+    created: "2022-07-01T18:41:24.766900385Z"
+    description: Splunk OpenTelemetry Collector for Kubernetes
+    icon: https://github.com/signalfx/splunk-otel-collector-chart/tree/main/splunk.png
+    keywords:
+    - splunk
+    - opentelemetry
+    - observability
+    - logs
+    - traces
+    - metrics
+    - apm
+    maintainers:
+    - name: dmitryax
+    - name: jvoravong
+    - name: emaderer
+    name: splunk-otel-collector
+    type: application
+    urls:
+    - https://github.com/fsbaraglia/splunk-otel-collector-chart/archive/refs/tags/splunk-otel-collector-0.54.2-snmp.tar.gz
+    version: 0.54.2-snmp
+  
